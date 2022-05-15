@@ -33,7 +33,7 @@ def home():
     resp = '''<h1>EC2 Proxy Helper</h1>
                 <br>
                 usage:
-                    <br><code>http://127.0.0.1:80/vuln?url=http://example.com</code><br>
+                    <br><code>http://127.0.0.1:80/vuln?url=http://169.254.169.254</code><br>
                 
     '''
     return(resp,200)
